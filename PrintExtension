@@ -1,0 +1,5 @@
+file_name= input("Enter Filename: ")
+
+file = file_name.split(".")
+
+print ("Extension of the file is : " + file[-1])
